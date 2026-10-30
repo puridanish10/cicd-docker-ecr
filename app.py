@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "<h1>Version 2: Running in a container</h1>"
+    return "<h1>Version 3: Running in a container</h1>"
 
 
 if __name__ == "__main__":
